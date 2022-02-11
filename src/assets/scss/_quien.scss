@@ -1,0 +1,30 @@
+#yo{
+    padding: 50px 0;
+
+    .dialog{
+        position: absolute;
+        top: -100%;
+        z-index: -1;
+    }
+    .soy{
+        font: normal normal bold 40px/55px $font;
+        letter-spacing: -2px;
+        color: #FCD46D;
+        margin: 0 auto;
+        width: 80%;
+    }
+    h3{
+        font: normal normal bold 50px/60px $font;
+        letter-spacing: -2px;
+        color: #FCD46D;
+        margin: 50px 0;
+    }
+    p{
+        color: $gray;
+        font-family: $font;
+        font-size: remcalc(25px);
+        font-weight: 300;
+        line-height: 35px;
+        letter-spacing: 0px;
+    }
+}

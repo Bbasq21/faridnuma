@@ -1,0 +1,17 @@
+footer{
+    padding: 50px 0;
+
+    a, p{
+        color: $gray;
+        font: normal normal normal 14px/19px $font;
+        letter-spacing: 0px;
+        margin: 0 5px;
+        text-decoration: none;
+        transition: ease-in-out .5s;
+
+        &:hover{
+            color: $gold;
+            text-decoration: none;
+        }
+    }
+}

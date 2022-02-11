@@ -1,0 +1,59 @@
+#blogs{
+    position: relative;
+
+    .notice{
+        margin: 0 0 100px;
+
+        .info{
+            padding: 0 80px;
+
+            .date{
+                color: $gray;
+                display: block;
+                font: normal normal 600 20px/36px $font;
+                margin-bottom: 30px;
+            }
+            h3{
+                color: $gold;
+                font: normal normal bold 70px/70px $font;
+                letter-spacing: -3.2px;
+            }
+            label{
+                color: $gray;
+                display: block;
+                font: normal normal 600 16px/36px $font;
+                margin-bottom: 30px;
+            }
+            p{
+                color: $gray;
+                font: normal normal 300 20px/30px $font;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        }
+    }
+    .gradient-a{
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, var(--unnamed-color-ffffff00) 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 2098px;
+        height: 1484px;
+        position: absolute;
+        top: -15%;
+        left: -95%;
+        z-index: 0;
+    }
+    .gradient-b{
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, var(--unnamed-color-ffffff00) 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 2098px;
+        height: 1484px;
+        position: absolute;
+        bottom: -35%;
+        right: -90%;
+        z-index: 0;
+    }
+}

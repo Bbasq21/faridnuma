@@ -1,0 +1,84 @@
+#contacto{
+    padding: 50px 0;
+    position: relative;
+    .formulario{
+        background: $white;
+        border-radius: 20px;
+        padding-left: 60px;
+
+        .find{
+            margin: 50px 0;
+            h4{
+                color: $gray;
+                font: normal normal bold 30px/43px $font;
+                margin-bottom: 50px;
+            }
+            .info-contact{
+                margin-bottom: 70px;
+
+                p{
+                    color: $gray;
+                    font: normal normal 500 20px/27px $font;
+                }
+            }
+            .forms{
+                .field{
+                    background: #F2F4F8;
+                    color: $gray;
+                    width: 100%;
+                    height: 45px;
+                    border-radius: 16px;
+                    margin: 0 0 10px;
+                    padding: 0 0 0 10px;
+                    font: normal normal normal 16px/21px $font;
+
+                    &::placeholder{
+                        color: $gray;
+                        font: normal normal normal 16px/21px $font;
+                    }
+                }
+                textarea{
+                    background: #F2F4F8;
+                    border-radius: 16px;
+                    width: 100%;
+                    min-height: 150px;
+                    margin: 0 0 10px;
+                    padding: 5px 0 0 10px;
+                }
+                button{
+                    width: 140px;
+                    height: 50px;
+                    background: #A9DBF6;
+                    border: 1px solid #A9DBF6;
+                    border-radius: 62px;
+                    color: #fff;
+                    font: normal normal bold 16px/23px Space Grotesk;
+                    float: right;
+                    transition: ease-in-out .5s;
+
+                    &:hover{
+                        background: transparent;
+                        color: #a9dbf6;
+                    }
+                }
+            }
+            
+        }
+        .mapa{
+            iframe{
+                border-radius: 20px;
+            }
+        }
+    }
+    .gradient-a{
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, var(--unnamed-color-ffffff00) 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(closest-side at 50% 50%, #FDCD6D 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -73%;
+        z-index: -1;
+    }
+}

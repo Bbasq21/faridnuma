@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Light.eot');
+    src: url('../fonts/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpaceGrotesk-Light.woff') format('woff'),
+        url('../fonts/SpaceGrotesk-Light.ttf') format('truetype'),
+        url('../fonts/SpaceGrotesk-Light.svg#SpaceGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Medium.eot');
+    src: url('../fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpaceGrotesk-Medium.woff') format('woff'),
+        url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype'),
+        url('../fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Bold.eot');
+    src: url('../fonts/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpaceGrotesk-Bold.woff') format('woff'),
+        url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype'),
+        url('../fonts/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Regular.eot');
+    src: url('../fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpaceGrotesk-Regular.woff') format('woff'),
+        url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype'),
+        url('../fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-SemiBold.eot');
+    src: url('../fonts/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SpaceGrotesk-SemiBold.woff') format('woff'),
+        url('../fonts/SpaceGrotesk-SemiBold.ttf') format('truetype'),
+        url('../fonts/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?c3chpr');
+    src:  url('../fonts/icomoon.eot?c3chpr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?c3chpr') format('truetype'),
+      url('../fonts/icomoon.woff?c3chpr') format('woff'),
+      url('../fonts/icomoon.svg?c3chpr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-comment:before {
+    content: "\e90e";
+}
+.icon-phone:before {
+    content: "\e902";
+}
+.icon-cellphone:before {
+    content: "\e903";
+}
+.icon-gps:before {
+    content: "\e906";
+}
+.icon-like1:before {
+    content: "\e90b";
+}
+.icon-arrow-left:before {
+    content: "\e900";
+}
+.icon-arrow-right:before {
+    content: "\e901";
+}
+.icon-event:before {
+    content: "\e904";
+}
+.icon-facebook:before {
+    content: "\e905";
+}
+.icon-instagram:before {
+    content: "\e907";
+}
+.icon-like:before {
+    content: "\e908";
+}
+.icon-linkedin:before {
+    content: "\e909";
+}
+.icon-login:before {
+    content: "\e90a";
+}
+.icon-play:before {
+    content: "\e90c";
+}
+.icon-twitter:before {
+    content: "\e90d";
+}
